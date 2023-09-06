@@ -1,0 +1,81 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: System-ui;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+}
+
+@media (max-width: 647px) {
+.container .image-box img {
+        width: 120%;
+}
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+ul {
+    position: relative;
+    left: 0;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 14px 0;
+}
+
+ul li {
+    margin-left: 10%;
+}
+
+ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+ul h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.container .error-internet {
+    font-size: 14px;
+}
+
+.reload {
+    padding: 9px 18px;
+    margin-top: 10px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #888;
+}
+.reload:active {
+    background-color: #555;
+}
+
+.hide {
+    display: none;
+}
